@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noli Me Tangere Characters by Zach Natividad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+        }
+
+        header {
+            background-color: #f5f5dc;
+            color: #666;
+            text-align: center;
+            padding: 20px 0;
+            border: 5px solid #333;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 1020px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        .character {
+            display: flex;
+            align-items: center;
+        }
+
+        .character img {
+            max-width: 200px;
+            margin-right: 20px;
+        }
+
+        .character .info {
+            flex-grow: 1;
+        }
+
+        .character h2 {
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .character {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .character-image {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .character .info {
+                text-align: center;
+            }
+        }
+
+        .character-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 2px solid #333;
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .character-image {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            border-right: 2px solid #333;
+        }
